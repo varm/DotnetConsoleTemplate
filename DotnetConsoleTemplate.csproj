@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>Zerow.Templates.Console</PackageId>
+    <PackageType>Template</PackageType>
+    <PackageVersion>3.0.0</PackageVersion>
+    <Authors>Zerow</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>Enhanced Console App with Hosting Framework (Dependency Injection, Configuration, Logging, Datasource)</Description>
+    <PackageTags>dotnet-new;template;console</PackageTags>
+    <RepositoryUrl>https://github.com/varm/DotnetConsoleTemplate</RepositoryUrl>
+    <PackageLicenseExpression>BSD-2-Clause OR MIT</PackageLicenseExpression>
+    <Title>An enhanced dotnet console template</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <Copyright>Copyright© 2024 Zerow</Copyright>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="content\**" Exclude="content\src\DotnetConsoleTemplate\bin\**;content\src\DotnetConsoleTemplate\obj\**" />
+    <None Include="icon.png" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" Visible="false" PackagePath="">
+      <Link>Properties\README.md</Link>
+    </None>
+    <Compile Remove="**\*" />
+  </ItemGroup>
+</Project>

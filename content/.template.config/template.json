@@ -4,7 +4,8 @@
   "classifications": [ "Common/Console" ],
   "name": "Zerow.Templates.Console",
   "identity": "Zerow.Templates.Console", 
-  "shortName": "zerowconsole",
+  "shortName": "zerow-console",
+  "preferNameDirectory":false,
   "tags": {
     "language": "C#",
     "type": "project"

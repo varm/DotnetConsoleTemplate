@@ -19,7 +19,7 @@ namespace DotnetConsoleTemplate.Services
     ];
         public async Task<IEnumerable<WeatherForecast>> GetForecasts(int count)
         {
-            _logger.Debug("Load weather forecast: {Count}", count);
+            //_logger.Debug("Load weather forecast: {Count}", count);
             var rng = new Random();
             var forecasts = Enumerable.Range(1, count).Select(index =>
                 new WeatherForecast

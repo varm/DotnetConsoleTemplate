@@ -11,7 +11,7 @@ Enhanced Console App with Hosting Framework (Dependency Injection, Configuration
 
 ## Installation
 
-The project template package can be found at [nuget.org](https://www.nuget.org/packages/devdeer.Templates.HostConsole/). To perform the installation the `dotnet cli` is required.
+The project template package can be found at [nuget.org](https://www.nuget.org/packages/Zerow.Templates.Console "An enhanced dotnet console template"). To perform the installation the `dotnet cli` is required.
 
 ```shell
 dotnet new install Zerow.Templates.Console
@@ -21,6 +21,8 @@ The valid versions can be found on the nuget package site.
 
 ## Usage
 
+### .Net CLI
+
 ```shell
 dotnet new Zerow.Templates.Console -n MyConsoleApp
 ```
@@ -28,6 +30,5 @@ dotnet new Zerow.Templates.Console -n MyConsoleApp
 or
 
 ```shell
-dotnet new ZerowConsole -n MyConsoleApp
+dotnet new zerow-console -n MyConsoleApp
 ```
-
