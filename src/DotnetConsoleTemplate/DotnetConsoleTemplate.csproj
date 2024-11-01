@@ -7,7 +7,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Zerow.Templates.Console</PackageId>
-    <Version>1.0.0</Version>
+    <PackageType>Template</PackageType>
+    <Version>2.0.0</Version>
     <Authors>Zerow</Authors>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Description>Enhanced Console App with Hosting Framework (Dependency Injection, Configuration, Logging, Datasource)</Description>
